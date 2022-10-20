@@ -1,0 +1,274 @@
+.header__top-row{
+  background-color: rgb(127,127,127);
+  padding: 5px
+}
+
+.header__top-row > *{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 8px;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.header__a:hover{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.header__a:visited{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.header__section-row{
+  background-color: rgb(103,202,246);
+}
+
+.header__site-title{
+  font-family: 'Bauhaus 93', sans-serif;
+  font-size: 2.1em;
+}
+
+.header__menu-item{
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', sans-serif;
+  padding-top: 1.4em;
+}
+
+.header__menu-item:hover{
+  background-color: #66A9F4;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+.header__menu-item.active{
+  background-color: #66A9F4;
+}
+
+
+#hello{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.hello__p{
+  font-size: 1.2em;
+}
+
+
+.pr__icon{
+  font-size: 3em;
+  text-align: center;
+}
+
+.pr__text{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#winary{
+  margin-top: 7em;
+  margin-bottom: 5em;
+}
+
+.winary__icon{
+  font-size: 3em;
+  text-align: center;
+}
+
+.winary__text{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#lastreview{
+  margin-top: 7em;
+  margin-bottom: 5em;
+}
+
+
+#price{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.price__cic{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding-top: 60px;
+  background-color: #D7D7D7;
+}
+
+#boosters{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.media{
+  border: 1px solid #6A6A6A;
+}
+
+
+#rw{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.rw__image{
+  border-radius: 50%;
+}
+
+
+
+#gallery{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+
+.gallery__gal{
+  height: 600px;
+  width:100%;
+}
+
+.gallery__transition{
+  cursor: pointer;
+}
+
+.SliderElement{
+  cursor: pointer;
+}
+
+#HeadPicture
+{
+  width:50%;
+  height:50%;
+  margin-left:25%;
+}
+
+#slider
+{
+  margin-top:2%;
+  width:60%;
+  margin-left:20%;
+  height:21%;
+  overflow-y:hidden;
+  overflow-x:scroll;
+  white-space: nowrap;
+  position: relative;
+}
+
+#slider > img
+{
+  margin-top:0.5%;
+  margin-left:1%;
+  width:25%;
+  height:90%;
+}
+
+#left
+{
+  display: inline-block; /* Inline block to match large image dimensions */
+  position: relative;
+  width:25%;
+  height:50%;
+  float:left;
+
+  background-size:200% 100%;
+  background-position:0 0;
+  transition:0.8s;
+
+}
+
+#right
+{ 
+  display: inline-block; /* Inline block to match large image dimensions */
+  position: relative;
+  width:25%;
+  height:50%;
+  float:right;
+
+  background-size:200% 100%;
+  background-position:100% 0;
+  transition:0.8s;
+}
+
+#l_arrow
+{
+  background:url('../img/arrow_left.png'), rgb(120,120,120);
+  background-size:100% 100%;
+  position:absolute;
+  margin-top:6%;
+  margin-left:14%;
+  height:30%;
+  width:5%;
+  opacity:1;
+}
+
+#l_arrow:hover
+{
+  opacity:1;
+}
+
+#r_arrow:active
+{
+  opacity:1;
+}
+
+#r_arrow
+{
+  background:url('../img/arrow_right.png'), rgb(120,120,120);
+  background-size:100% 100%;
+  position:absolute;
+  margin-top:6%;
+  margin-left:81%;
+  height:30%;
+  width:5%;
+  opacity:1;
+}
+
+#r_arrow:hover
+{
+  opacity:1;
+}
+
+#r_arrow:active
+{
+  opacity:1;
+}
+
+
+
+#login{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#register{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+
+
+
+#footer{
+  margin-top: 5em;
+}
+
+.footer__row{
+  background-color: rgb(103,202,246);
+  padding: 10px;
+}
